@@ -1,0 +1,120 @@
+/* THE CASE STUDY CSS STYLE FILE */
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+
+WEBSITE COLOUR SCHEME
+
+-------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/*
+
+First colour: rgba(195, 168, 255, 1);
+Second colour: rgba(44, 31, 61, 1);
+Third colour: rgba(55, 42, 71, 1);
+Fourth colour: #444; form main content text and headings
+
+*/
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+
+MOBILE DEFAULT STYLES - GLOBAL STYLES
+
+-------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Prevent adjustments of font size after orientation change in IE on Windows phone and in IOS */
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/* Apply a natural box model layout to all elements */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* OPTIONAL - all images and video set to 100% width of their parent container */
+
+img,
+video {
+    width: 100%;
+}
+
+body {
+    /* background-color: red;*/
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    color: #444;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    background-color: red;
+    width: 80%;
+    height: 100%;
+    margin: 100px auto;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+
+        HOMEPAGE STYLES
+
+-------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.homeBgImage {
+    position: relative;
+    background-image: url(../img/trainerHomePage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    width: 100%;
+    height: 100vh;
+    border-bottom: 15px solid rgba(53, 38, 80, 0.8);
+    background-attachment: fixed;
+}
+
+.logoC {
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    width: 45px;
+    position: fixed;
+}
+
+.cartIcon {
+    position: absolute;
+    top: 15px;
+    left: 45vw;
+    width: 45px;
+    z-index: 115;
+    position: fixed;
+}
+
+.fa-shopping-basket {
+    font-size: 2em;
+    color: rgba(194, 166, 255, 0.7);
+
+}
+
+.navC {
+    position: fixed;
+    color: white;
+    height: auto;
+    width: 100%;
+    background-color: rgba (194, 166, 255, 0.2);
+    border-bottom: 2px solid rgba (194, 166, 255, 0.2);
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navC li{
+       float:right; 
+}
